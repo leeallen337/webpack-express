@@ -8,7 +8,8 @@ const config = {
   },
   output: {
     path: __dirname + '/app/dist',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   module: {
     rules: [
